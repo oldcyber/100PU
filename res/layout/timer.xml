@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/RelativeLayout01" 
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent"
+android:padding="5dp"
+android:background="#e2e2e2">
+<TextView 
+android:text="" 
+android:paddingBottom="10dip"
+android:paddingTop="10dip"
+android:id="@+id/TimerText" 
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent" 
+android:textColor="#ff8c00"
+android:textSize="160dp" 
+android:textStyle="bold" 
+android:gravity="center"/>
+</RelativeLayout>
+  <!-- 
+  <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:gravity="fill"
+  android:orientation="horizontal"
+  android:padding="5dp"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="#ffffff">
+  
+  
+  </LinearLayout>
+  android:gravity="center_horizontal" -->

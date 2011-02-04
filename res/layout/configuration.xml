@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:background="#ffffff"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+<View 
+android:layout_width="fill_parent"
+android:layout_height="20px" />
+<TableRow 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content">
+	<TextView 
+		android:textColor="#000000"
+		android:text="@string/RestTimeText" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_margin="3dip"/>
+	<EditText 
+		android:singleLine="true"
+		android:gravity="center"
+		android:textColor="#000000"
+		android:id="@+id/RestTime" 
+		android:text="60"
+		android:selectAllOnFocus="true"  
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:layout_margin="3dip" 
+		/>	
+		<Button
+		android:text="@string/dialog_Save" 
+		android:id="@+id/SaveData"  
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" android:layout_gravity="center"/>
+</TableRow>
+<TableRow
+android:layout_width="fill_parent"
+android:layout_height="wrap_content">
+<TextView
+android:textColor="#000000"
+android:text="@string/NameWeek" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_margin="3dip"/>
+<Spinner 
+android:id="@+id/Spinner01" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content" />
+</TableRow>
+<TableRow
+android:layout_width="fill_parent"
+android:layout_height="wrap_content">
+<TextView
+android:textColor="#000000"
+android:text="@string/NameDay" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_margin="3dip"/>
+<Spinner 
+android:id="@+id/Spinner02" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content" />
+</TableRow>
+<Button 
+android:text="@string/GoDayButton" 
+android:id="@+id/GoDayButton" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content" />
+<Button 
+android:text="@string/ResetFirstInitButton" 
+android:id="@+id/ResetFirstInitButton" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content" />
+<Button 
+android:text="@string/ResetButton" 
+android:id="@+id/ResetButton" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content" />
+
+</LinearLayout>

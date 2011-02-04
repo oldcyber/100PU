@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:background="#ffffff"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+<TextView 
+android:text="@string/StatsWelcome" 
+android:id="@+id/StatsWelcome" 
+android:layout_width="fill_parent"
+android:paddingBottom="5dip" 
+android:layout_height="wrap_content" />
+<View 
+android:layout_width="fill_parent"
+android:background="#c0c0c0ff"
+android:layout_height="1px" />
+<View 
+android:layout_width="fill_parent"
+android:layout_height="20px" />
+<TableLayout 
+android:id="@+id/TableLayout01" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+<TableRow android:paddingBottom="5dip">
+<TextView 
+android:text="@string/StatsAge" 
+android:id="@+id/StatsAge" 
+android:layout_width="fill_parent"
+android:paddingBottom="5dip" 
+android:layout_height="wrap_content" />
+<TextView 
+android:text="" 
+android:id="@+id/StatsAgeRes" 
+android:layout_width="fill_parent"
+android:paddingBottom="5dip" 
+android:layout_height="wrap_content" />
+</TableRow>
+<TableRow android:paddingBottom="5dip">
+<TextView 
+android:text="@string/StatsLevel" 
+android:id="@+id/StatsLevel" 
+android:layout_width="fill_parent"
+android:paddingBottom="5dip" 
+android:layout_height="wrap_content" />
+<TextView 
+android:text="" 
+android:id="@+id/StatsLevelRes" 
+android:layout_width="fill_parent"
+android:paddingBottom="5dip" 
+android:layout_height="wrap_content" />
+</TableRow>
+<TableRow android:paddingBottom="5dip">
+<TextView 
+android:text="@string/StatsStage" 
+android:id="@+id/StatsStage" 
+android:layout_width="fill_parent"
+android:paddingBottom="5dip" 
+android:layout_height="wrap_content" />
+<TextView 
+android:text="" 
+android:id="@+id/StatsStageRes" 
+android:layout_width="fill_parent"
+android:paddingBottom="5dip" 
+android:layout_height="wrap_content" />
+</TableRow>
+<TableRow android:paddingBottom="5dip">
+<TextView 
+android:text="@string/StatsProgress" 
+android:id="@+id/StatsProgress" 
+android:layout_width="fill_parent"
+android:paddingBottom="5dip" 
+android:layout_height="wrap_content" />
+<TextView 
+android:text="" 
+android:id="@+id/StatsProgressRes" 
+android:layout_width="fill_parent"
+android:paddingBottom="5dip" 
+android:layout_height="wrap_content" />
+</TableRow>
+</TableLayout>
+<View 
+android:layout_width="fill_parent"
+android:background="#c0c0c0ff"
+android:layout_height="1px" />
+<View 
+android:layout_width="fill_parent"
+android:layout_height="20px" />
+<Button 
+android:text="@string/Ok" 
+android:id="@+id/StatsOk" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content" 
+android:textStyle="bold"/>
+</LinearLayout>

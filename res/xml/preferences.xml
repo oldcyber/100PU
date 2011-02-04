@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+<PreferenceCategory
+	android:title="@string/main_preferences">
+<PreferenceScreen android:key="GoDayButton" android:title="@string/GoDayButton" android:summary="@string/GoDayButtonSummary"><ListPreference android:key="GoDay" android:entryValues="@array/GoDayConfigData" android:entries="@array/GoDayConfigName" android:dialogTitle='"День"' android:title='"День"' android:summary="@array/GoDayConfigName"/>
+<ListPreference android:key="GoWeek" android:entryValues="@array/GoWeekConfigData" android:entries="@array/GoWeekConfigName" android:dialogTitle='"Неделя"' android:title='"Неделя"'/>
+</PreferenceScreen>
+<Preference 
+android:title="@string/ResetFirstInitButton" 
+android:key="ResetFirstInitButton" 
+android:summary="@string/ResetFirstInitButtonSummary" />
+<Preference 
+android:title="@string/ResetButton" 
+android:key="ResetButton" 
+android:summary="@string/ResetButtonSummary" />
+
+
+</PreferenceCategory>            
+</PreferenceScreen>

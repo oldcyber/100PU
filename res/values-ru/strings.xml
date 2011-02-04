@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Пройдите начальный тест</string>
+    <string name="app_name">100 Push Ups</string>
+    <string name="TextView01">Начальный тест</string>
+    <string name="legal">Легально о программе</string>
+    <string name="copyright">© 2009-2010 "D-Lab", OldCyber.</string>
+    <string name="version">Version</string>
+    <string name="build">, build</string>
+    <string name="Ok">Ок</string>
+    <string name="dialog_Cancel">Отменить</string>
+    <string name="dialog_Other">Что-то</string>
+    <string name="dialog_Save">Сохранить</string>
+    <string name="dialog_Next">Далее</string>
+    <string name="dialog_Back">Назад</string>
+    <string name="mtitle_MainWindow">100 Отжиманий</string>
+    <string name="mtitle_FirstInit">Начальный тест</string>
+    <string name="mtitle_Training">Тренировка</string>
+    <string name="mtitle_Stats">Статистика</string>
+    <!-- mainbuttons -->
+    <string name="MainButton">Начать тестирование</string>
+    <string name="ConfigurationButton">Настройка</string>
+    <string name="StatsButton">Статистика</string>
+    <string name="GoTraining">Начать тренировку</string>
+    <string name="ChangeTraining">Изменить тренировку</string>
+	<!-- home_menu -->
+    <string name="hm_about">О программе</string>
+    <string name="hm_exit">Выход</string>
+	<!-- Меню main_menu наверно будет убито -->
+    <string name="mm_TrainingMenuItem">Тренировка</string>
+    <string name="mm_StatsMenuItem">Статистика</string>
+    <string name="mm_NewTrainigMenuItem">Новая тренировка</string>
+    <string name="mm_ContinueTrainingMenuItem">Продолжить тренировку</string>
+    <string name="mm_RepeatLastTrainingMenuItem">Повторить последнюю</string>
+    <string name="mm_BackPastWeekMenuItem">К прошлой неделе</string>
+    <string name="mm_RepeatCurrentWeekMenuItem">Повторить неделю</string>
+    <!-- userinfo -->
+    <string name="tv1T1">Это:</string>
+    <string name="tv1T2">Первичное тестирование</string>
+    <string name="tv2T1">Ваш уровень:</string>
+    <string name="tv2T2">не определён</string>
+    <!-- firstinit -->
+    <string name="ManagedPushUps">Количество отжиманий</string>
+    <string name="WelcomeFirstInit">НАЧАЛЬНЫЙ ТЕСТ</string>
+    <string name="WelcomeFirstInit1">Перед тем, как <b>начать программу</b> ста отжиманий, вы должны пройти вступительный тест. Тест покажет ваш текущий уровень подготовки и определит, с чего начать и по какому плану строить тренировки. Чтобы пройти тест, просто выполните столько правильных отжиманий, сколько сможете. Самое главное, не пытайтесь как-то схитрить - поверьте, прохождение программы на неподходящем для вас уровне может быть слишком сложным. Результаты могут быть скромными, но честность - это лучший помощник для максимальной эффективности программы. Когда вы рухнете на пол, не в силах продолжать, запомните, сколько отжиманий вы смогли сделать. К примеру, когда я первый раз проходил тест, то смог отжаться всего 19 раз. До того как начать неделю 1, я рекоммендую взять пару дней для того, чтобы отдохнуть после теста и ознакомиться с программой. Вам нужно будет выделить три дня в неделю для тренировок - для меня были удобнее всего понедельник, среда и пятница.</string>
+	<string name="ErrorFirstInit">Ошибка!</string>
+	<string name="ErrorFirstInit1">Количество отжимания и возраст не должны равняться нулю</string>
+	<string name="SetResultText">Введите данные для расчёта Вашего уровня подготовки</string>
+	<string name="SetResultCount">Количество</string>
+	<string name="SetResultAge">Возраст</string>
+	<!--  statistics -->
+	<string name="StatsWelcome">Ваша статистика</string>
+	<string name="StatsAge">Возраст:</string>
+	<string name="StatsAgeRes"></string>
+	<string name="StatsLevel">Тестовый уровень:</string>
+	<string name="StatsStage">Пройдено:</string>
+	<string name="StatsProgress">Max количество отжиманий:</string>
+	<!-- Go Training -->
+	<string name="BeginTraining">Начать упражнения</string>
+	<string name="TrainingHeader2">Количество</string>
+	<string name="Training1">Подход 1:</string>
+	<string name="Training2">Подход 2:</string>
+	<string name="Training3">Подход 3:</string>
+	<string name="Training4">Подход 4:</string>
+	<string name="Training5">Подход 5:</string>	
+	<string name="Training6">Подход 6:</string>
+	<string name="Training7">Подход 7:</string>
+	<string name="Training8">Подход 8:</string>
+	<string name="Training9">Подход 9:</string>
+	<string name="TrainingMax">не менее</string>
+	<string name="Rest">Отдых</string>
+	<string name="TrainigNum">Количество отжиманий:</string>
+	<string name="EndTraining">Закончить тренировку</string>
+	<!-- Configuration -->
+	<string name="ResetButton">Сбросить всё!</string>
+	<string name="ResetFirstInitButton">Повторить начальный тест</string>
+	<string name="GoDayButton">Перейти к занятию</string>
+	<string name="RestTimeText">Время отдыха (в сек.)</string>
+	<string name="dialog_training_preferences">Свойства занятий</string>
+	<string name="week1">Неделя 1</string>
+	<string name="NameWeek">Неделя:</string>
+	<string name="NameDay">День:</string>
+	<!--  Preferences -->
+	<string name="main_preferences">Основные настройки</string>
+	<string name="GoDayButtonSummary">Перейти к нужному дню или неделе</string>
+	<string name="ResetFirstInitButtonSummary">Пройти начальный тест заново</string>
+	<string name="ResetButtonSummary">Сбросить все настройки</string>
+	<!-- Write Result -->
+	<string name="TextWriteresult">Введите число отжиманий, которое вы смогли сделать</string>
+	
+</resources>

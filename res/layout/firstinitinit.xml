@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="#ffffff"
+android:layout_width="wrap_content" 
+android:layout_height="fill_parent">
+<TableLayout
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:stretchColumns="1"
+android:padding="10dip"
+android:orientation="vertical">
+<TextView
+android:textColor="#000000"
+android:text="@string/SetResultText"
+android:id="@+id/SetResultText"
+android:padding="10dip"
+android:textSize="16dp"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content" />   
+<View 
+android:id="@+id/View01" 
+android:layout_width="fill_parent"
+android:background="#c0c0c0ff"
+android:layout_height="1px" />
+<View 
+android:layout_width="fill_parent"
+android:layout_height="20px" />    
+<TableRow android:paddingBottom="5dip">
+<TextView 
+android:paddingRight="10dip"
+android:textColor="#000000"
+android:gravity="right"
+android:textStyle="bold"
+android:text="@string/SetResultCount" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" />
+<EditText 
+android:singleLine="true"
+android:textColor="#000000"
+android:numeric="integer"
+android:id="@+id/CountPushUps" 
+android:text="0"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:selectAllOnFocus="true"/>
+</TableRow>
+<TableRow android:paddingBottom="5dip">
+<TextView 
+android:paddingRight="10dip"
+android:textColor="#000000"
+android:gravity="right"
+android:textStyle="bold"
+android:text="@string/SetResultAge" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" />
+<EditText 
+android:singleLine="true"
+android:textColor="#000000"
+android:numeric="integer"
+android:id="@+id/UserAge"
+android:text="0" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:selectAllOnFocus="true" />
+</TableRow>
+<TableRow
+android:paddingBottom="5dip">
+<TextView 
+android:paddingRight="10dip"
+android:textColor="#000000"
+android:gravity="right"
+android:textStyle="bold"
+android:text="" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" />
+<Button 
+android:text="@string/Ok" 
+android:id="@+id/FirstRunAgree" 
+android:textStyle="bold"
+android:layout_span="2"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:gravity="center"/>
+</TableRow>
+</TableLayout>
+</ScrollView>

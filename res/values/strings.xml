@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Пройдите начальный тест</string>
+    <string name="app_name">100 Push-Ups</string>
+    <string name="TextView01">initial test</string>
+    <string name="legal">legal information</string>
+    <string name="copyright">© 2009-2010 "D-Lab", OldCyber.</string>
+    <string name="version">Version</string>
+    <string name="build">, build</string>
+    <string name="Ok">Ok</string>
+    <string name="dialog_Cancel">Cancel</string>
+    <string name="dialog_Other">Other</string>
+    <string name="dialog_Save">Save</string>
+    <string name="dialog_Next">Next</string>
+    <string name="dialog_Back">Back</string>
+    <string name="mtitle_MainWindow">100 push-ups</string>
+    <string name="mtitle_FirstInit">initial test</string>
+    <string name="mtitle_Training">Workout</string>
+    <string name="mtitle_Stats">Statistics</string>
+    <!-- mainbuttons -->
+    <string name="MainButton">Begin Initial Test</string>
+    <string name="ConfigurationButton">Settings</string>
+    <string name="StatsButton">Satistics</string>
+    <string name="GoTraining">Begin Workout</string>
+    <string name="ChangeTraining">Modify Workout</string>
+	<!-- home_menu -->
+    <string name="hm_about">About</string>
+    <string name="hm_exit">Exit</string>
+	<!-- Меню main_menu наверно будет убито -->
+    <string name="mm_TrainingMenuItem">Тренировка</string>
+    <string name="mm_StatsMenuItem">Статистика</string>
+    <string name="mm_NewTrainigMenuItem">Новая тренировка</string>
+    <string name="mm_ContinueTrainingMenuItem">Продолжить тренировку</string>
+    <string name="mm_RepeatLastTrainingMenuItem">Повторить последнюю</string>
+    <string name="mm_BackPastWeekMenuItem">К прошлой неделе</string>
+    <string name="mm_RepeatCurrentWeekMenuItem">Повторить неделю</string>
+    <!-- userinfo -->
+    <string name="tv1T1">This:</string>
+    <string name="tv1T2">Initial test</string>
+    <string name="tv2T1">Your rank:</string>
+    <string name="tv2T2">Undefined</string>
+    <!-- firstinit -->
+    <string name="ManagedPushUps">Number of push-ups</string>
+    <string name="WelcomeFirstInit">INITIAL TEST</string>
+    <string name="WelcomeFirstInit1">Before you dive in and start the Hundred Push Ups Program, you should: etc\'s</string>
+	<string name="ErrorFirstInit">Error!</string>
+	<string name="ErrorFirstInit1">The number of push ups, and age should not be zero</string>
+	<string name="SetResultText">Enter the data for calculating the level of your</string>
+	<string name="SetResultCount">quantity</string>
+	<string name="SetResultAge">Age</string>
+	<!--  statistics -->
+	<string name="StatsWelcome">Your stats</string>
+	<string name="StatsAge">Age:</string>
+	<string name="StatsAgeRes">Age Result:</string>
+	<string name="StatsLevel">Rank:</string>
+	<string name="StatsStage">Passed:</string>
+	<string name="StatsProgress">Max number of push-ups:</string>
+	<!-- Go Training -->
+	<string name="BeginTraining">Begin workout</string>
+	<string name="TrainingHeader2">Quantity</string>
+	<string name="Training1">Set 1:</string>
+	<string name="Training2">Set 2:</string>
+	<string name="Training3">Set 3:</string>
+	<string name="Training4">Set 4:</string>
+	<string name="Training5">Set 5:</string>
+	<string name="Training6">Set 6:</string>
+	<string name="Training7">Set 7:</string>
+	<string name="Training8">Set 8:</string>
+	<string name="Training9">Set 9:</string>
+	<string name="TrainingMax">max (at least)</string>
+	<string name="Rest">Rest</string>
+	<string name="TrainigNum">Quantity push-ups:</string>
+	<string name="EndTraining">Finish workout</string>
+	<!-- Configuration -->
+	<string name="ResetButton">Reset All!</string>
+	<string name="ResetFirstInitButton">Repeat Initial test</string>
+	<string name="GoDayButton">Goto to workout</string>
+	<string name="RestTimeText">Rest time (in sec.)</string>
+	<string name="dialog_training_preferences">Workout preferences</string>
+	<string name="week1">Week 1</string>
+	<string name="NameWeek">Week:</string>
+	<string name="NameDay">Day:</string>
+	<!--  Preferences -->
+	<string name="main_preferences">Global preferences</string>
+	<string name="GoDayButtonSummary">Go to a specific day or week</string>
+	<string name="ResetFirstInitButtonSummary">Repeat Initial test</string>
+	<string name="ResetButtonSummary">Reset all settings</string>
+	<!-- Write Result -->
+	<string name="TextWriteresult">Enter the number of push-ups, which you could do</string>
+
+</resources>

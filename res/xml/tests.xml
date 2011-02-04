@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="tweeks">
+<item>первой недели</item>
+<item>второй недели</item>
+<item>третьей недели</item>
+<item>четвёртой недели</item>
+<item>пятой недели</item>
+<item>шестой недели</item>
+</string-array>
+<string-array name="tdays">
+<item>Первый день</item>
+<item>Второй день</item>
+<item>Третий день</item>
+</string-array>
+<!-- Week 1 -->
+<string-array name="week1day1level1">
+<item>2</item>
+<item>3</item>
+<item>2</item>
+<item>2</item>
+<item>3</item>
+</string-array>
+<string-array name="week1day1level2">
+<item>6</item>
+<item>6</item>
+<item>4</item>
+<item>4</item>
+<item>5</item>
+</string-array>
+<string-array name="week1day1level3">
+<item>10</item>
+<item>12</item>
+<item>7</item>
+<item>7</item>
+<item>9</item>
+</string-array>
+
+<string-array name="week1day2level1">
+<item>3</item>
+<item>4</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+</string-array>
+<string-array name="week1day2level2">
+<item>6</item>
+<item>8</item>
+<item>6</item>
+<item>6</item>
+<item>7</item>
+</string-array>
+<string-array name="week1day2level3">
+<item>10</item>
+<item>12</item>
+<item>8</item>
+<item>8</item>
+<item>12</item>
+</string-array>
+
+<string-array name="week1day3level1">
+<item>4</item>
+<item>5</item>
+<item>4</item>
+<item>4</item>
+<item>5</item>
+</string-array>
+<string-array name="week1day3level2">
+<item>8</item>
+<item>10</item>
+<item>7</item>
+<item>7</item>
+<item>10</item>
+</string-array>
+<string-array name="week1day3level3">
+<item>11</item>
+<item>15</item>
+<item>9</item>
+<item>9</item>
+<item>13</item>
+</string-array>
+
+<!-- Week 2 -->
+<string-array name="week2day1level1">
+<item>4</item>
+<item>6</item>
+<item>4</item>
+<item>4</item>
+<item>6</item>
+</string-array>
+<string-array name="week2day1level2">
+<item>9</item>
+<item>11</item>
+<item>8</item>
+<item>8</item>
+<item>11</item>
+</string-array>
+<string-array name="week2day1level3">
+<item>14</item>
+<item>14</item>
+<item>10</item>
+<item>10</item>
+<item>15</item>
+</string-array>
+
+<string-array name="week2day2level1">
+<item>5</item>
+<item>6</item>
+<item>4</item>
+<item>4</item>
+<item>7</item>
+</string-array>
+<string-array name="week2day2level2">
+<item>10</item>
+<item>12</item>
+<item>9</item>
+<item>9</item>
+<item>13</item>
+</string-array>
+<string-array name="week2day2level3">
+<item>14</item>
+<item>16</item>
+<item>12</item>
+<item>12</item>
+<item>17</item>
+</string-array>
+
+<string-array name="week2day3level1">
+<item>5</item>
+<item>7</item>
+<item>5</item>
+<item>5</item>
+<item>8</item>
+</string-array>
+<string-array name="week2day3level2">
+<item>12</item>
+<item>13</item>
+<item>10</item>
+<item>10</item>
+<item>15</item>
+</string-array>
+<string-array name="week2day3level3">
+<item>16</item>
+<item>17</item>
+<item>14</item>
+<item>14</item>
+<item>20</item>
+</string-array>
+
+
+</resources>
